@@ -1,0 +1,33 @@
+{
+  "created_at": "2025-10-24 22:54:14.366429",
+  "model_type": "XGBoostClassifier",
+  "features": [
+    "age",
+    "gender",
+    "height",
+    "weight",
+    "ap_hi",
+    "ap_lo",
+    "cholesterol",
+    "gluc",
+    "smoke",
+    "alco",
+    "active"
+  ],
+  "target": "cardio",
+  "train_shape": [
+    56000,
+    11
+  ],
+  "test_shape": [
+    14000,
+    11
+  ],
+  "metrics": {
+    "ROC AUC": 0.8029489923398958,
+    "F1": 0.7318047337278106,
+    "Precision": 0.760141364474493,
+    "Recall": 0.7055048488305762
+  },
+  "random_seed": 42
+}
